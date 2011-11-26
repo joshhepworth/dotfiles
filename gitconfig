@@ -1,0 +1,14 @@
+[user]
+	name = Josh Hepworth
+	email = josh@friendsoftheweb.com
+[alias]
+  co = checkout
+  ci = commit
+  a = add
+  m = merge
+[color]
+  diff = auto
+  status = auto
+  branch = auto
+[core]
+	quotepath = false
