@@ -1,0 +1,15 @@
+.DS_Store
+vim/.netrwhist
+vim/tmp
+
+vim/after
+vim/autoload
+vim/doc
+vim/plugin
+vim/ruby
+vim/syntax
+vim/ftdetect
+vim/ftplugin
+vim/colors
+vim/indent
+vim/.VimballRecord
