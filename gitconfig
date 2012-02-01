@@ -3,12 +3,19 @@
 	email = josh@friendsoftheweb.com
 [alias]
   co = checkout
+  st = status
   ci = commit
   a = add
   m = merge
+  b = branch
+  l = log
 [color]
   diff = auto
   status = auto
   branch = auto
 [core]
 	quotepath = false
+[difftool "Kaleidoscope"]
+  cmd = ksdiff-wrapper git \"$LOCAL\" \"$REMOTE\"
+[mergetool]
+	keepBackup = true
