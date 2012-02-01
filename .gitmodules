@@ -1,0 +1,3 @@
+[submodule "vim/bundle/vim-jst.vim"]
+	path = vim/bundle/vim-jst.vim
+	url = git://github.com/jeyb/vim-jst.git
