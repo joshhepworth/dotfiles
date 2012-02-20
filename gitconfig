@@ -15,6 +15,7 @@
   branch = auto
 [core]
 	quotepath = false
+	excludesfile = /Users/Josh/.gitignore
 [difftool "Kaleidoscope"]
   cmd = ksdiff-wrapper git \"$LOCAL\" \"$REMOTE\"
 [mergetool]
