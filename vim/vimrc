@@ -16,8 +16,8 @@ nmap <silent> <leader>ev :e $MYVIMRC<CR>
 nmap <silent> <leader>sv :so $MYVIMRC<CR>
 
 " Set Color
-color fruit
-colorscheme fruit
+color molokai
+colorscheme molokai
 
 " Editing Behaviors
 set showmode
@@ -62,6 +62,9 @@ nnoremap <leader>W :%s/\s\+$//<CR>:let @/=''<CR>
 nmap <silent> <leader>d "_d
 vmap <silent> <leader>d "_d
 
+" Quick exit to command mode
+imap jj <Esc>
+
 " Tab completion
 set wildmode=list:longest,list:full
 set wildignore+=*.o,*.obj,.git,*.rbc,*.class,.svn,vendor/gems/*
@@ -83,6 +86,10 @@ set visualbell
 
 " ZoomWin configuration
 map <Leader><Leader> :ZoomWin<CR>
+
+" Easy split
+nmap <Leader>hs :split<CR> <C-W>w
+nmap <Leader>vs :vsplit<CR> <C-W>w
 
 " CTags
 map <Leader>rt :!ctags --extra=+f -R *<CR><CR>
