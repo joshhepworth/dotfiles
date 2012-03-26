@@ -104,8 +104,6 @@ endif
 " Set up soft wrap
 set wrapmargin=0
 set textwidth=0
-set wrap
-set showbreak=\ \ \ \ " Add space to soft wrapped lines
 
 function! s:setupWrapping()
   set nolist
