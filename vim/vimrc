@@ -87,6 +87,10 @@ set visualbell
 " ZoomWin configuration
 map <Leader><Leader> :ZoomWin<CR>
 
+" NERDTree configuration
+autocmd vimenter * NERDTree
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
+
 " Easy split
 nmap <Leader>hs :split<CR> <C-W>w
 nmap <Leader>vs :vsplit<CR> <C-W>w
