@@ -185,6 +185,7 @@ let g:JSLintHighlightErrorLine = 0
 
 " Ctrl-P Settings
 set wildignore+=*/.DS_Store
+set wildignore+=*/.bundle
 let g:ctrlp_dont_split = 'netrw\|help'
 
 " MacVIM shift+arrow-keys behavior (required in .vimrc)
